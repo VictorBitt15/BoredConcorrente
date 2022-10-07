@@ -24,6 +24,7 @@ public class Menu implements IMenu{
                 operacao= CreateMenu();
                 switch(operacao){
                     case "0":
+                    case "":
                         System.exit(0);
                 }
                 int qtdThread = numberThreads.getQTD_THREADS().get(Integer.parseInt(operacao));
